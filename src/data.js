@@ -1,6 +1,7 @@
 // API KEY : 3ca5df7
 export const data = [
   {
+    
     Title: 'The Avengers',
     Year: '2012',
     Rated: 'PG-13',
@@ -43,6 +44,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'The Dark Knight',
     Year: '2008',
     Rated: 'PG-13',
@@ -129,6 +131,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Iron Man 2',
     Year: '2010',
     Rated: 'PG-13',
@@ -173,6 +176,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Iron Man 3',
     Year: '2013',
     Rated: 'PG-13',
@@ -216,6 +220,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Ronaldo',
     Year: '2015',
     Rated: 'PG-13',
@@ -253,6 +258,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Thor',
     Year: '2011',
     Rated: 'PG-13',
@@ -296,6 +302,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Thor: The Dark World',
     Year: '2013',
     Rated: 'PG-13',
@@ -339,6 +346,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Thor: Ragnarok',
     Year: '2017',
     Rated: 'PG-13',
@@ -382,6 +390,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Avengers: Infinity War',
     Year: '2018',
     Rated: 'PG-13',
@@ -425,6 +434,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Avengers: Endgame',
     Year: '2019',
     Rated: 'PG-13',
@@ -468,6 +478,7 @@ export const data = [
     Response: 'True'
   },
   {
+    
     Title: 'Man of Steel',
     Year: '2013',
     Rated: 'PG-13',
@@ -511,3 +522,5 @@ export const data = [
     Response: 'True'
   }
 ];
+
+export default data

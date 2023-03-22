@@ -1,22 +1,27 @@
-import data from "../data";
+import { data } from "../data";
+import Navbar from "./Navbar";
+import MovieCard from "./MovieCard";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <div className="classname">
+      <div className="main">
         <div className="tabs">
           <div className="tab">Movies</div>
           <div className="tab">Favorites</div>
         </div>
         <div className="list">
           {data.map((movie) => {
-            <MovieCard movie={movie} />;
+            {
+              console.log(movie.imdbID);
+            }
+            return <MovieCard movie={movie} key={movie.imdbID} />;
           })}
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default App;
